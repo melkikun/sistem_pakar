@@ -29,16 +29,16 @@
                 <div id="container_demo" >
                     <div id="wrapper">
                         <div id="login" class="animate form">
-                            <form  action="dashboard.php" autocomplete="on"> 
+                            <form method="post" action="dashboard.php" autocomplete="on"> 
                                 <h1>Log in</h1> 
                                 <p> 
                                     <label for="username" class="uname" data-icon="u" > Username </label>
-                                    <input id="username" name="username" required="required" 
+                                    <input id="username" name="username" required="required" value="faisal"
                                            type="text" placeholder="Masukkan Username Anda"/>
                                 </p>
                                 <p> 
                                     <label for="password" class="youpasswd" data-icon="p"> password </label>
-                                    <input id="password" name="password" required="required" type="password" 
+                                    <input id="password" name="password" required="required" type="password"   value="faisal"
                                            placeholder="Masukkan password Anda" /> 
                                 </p>
                                 <p class="keeplogin"> 
